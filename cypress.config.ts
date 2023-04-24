@@ -14,7 +14,7 @@ export default defineConfig({
       // implement node event listeners here
       on("file:preprocessor", cucumber(options));
     },
-    baseUrl: "http://dev1.geneat.vn:8101/en",
+    baseUrl: "http://dev1.geneat.vn:8802/",
     viewportHeight: 1024,
     viewportWidth: 1440,
     defaultCommandTimeout: 30000,
